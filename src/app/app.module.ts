@@ -14,6 +14,23 @@ import { HeroSassV3Component } from './partials/hero/hero-sass-v3/hero-sass-v3.c
 import { HomepageSaasV3Component } from './pages/homepages/homepage-saas-v3/homepage-saas-v3.component';
 import { FeaturesComponent } from './partials/components/features/features.component';
 import { TestimonialsComponent } from './partials/components/testimonials/testimonials.component';
+import { ListViewV1Component } from './pages/portfolios/list-view-v1/list-view-v1.component';
+import { ListViewV2Component } from './pages/portfolios/list-view-v2/list-view-v2.component';
+import { GridViewV2Component } from './pages/portfolios/grid-view-v2/grid-view-v2.component';
+import { GridViewV1Component } from './pages/portfolios/grid-view-v1/grid-view-v1.component';
+import { SliderViewComponent } from './pages/portfolios/slider-view/slider-view.component';
+import { SingleProjectV1Component } from './pages/portfolios/single-project-v1/single-project-v1.component';
+import { SingleProjectV2Component } from './pages/portfolios/single-project-v2/single-project-v2.component';
+import { CatalogListingsComponent } from './pages/shops/catalog-listings/catalog-listings.component';
+import { ShopProductPageComponent } from './pages/shops/shop-product-page/shop-product-page.component';
+import { ShopCheckoutComponent } from './pages/shops/shop-checkout/shop-checkout.component';
+import { BlogGridViewWithSliderComponent } from './pages/blogs/blog-grid-view-with-slider/blog-grid-view-with-slider.component';
+import { BlogGridViewNoSliderComponent } from './pages/blogs/blog-grid-view-no-slider/blog-grid-view-no-slider.component';
+import { AboutAgencyComponent } from './pages/abouts/about-agency/about-agency.component';
+import { AboutProductComponent } from './pages/abouts/about-product/about-product.component';
+import { ServicesV1Component } from './pages/services/services-v1/services-v1.component';
+import { ServicesV2Component } from './pages/services/services-v2/services-v2.component';
+import { ServicesV3Component } from './pages/services/services-v3/services-v3.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +45,24 @@ import { TestimonialsComponent } from './partials/components/testimonials/testim
     HeroSassV3Component,
     HomepageSaasV3Component,
     FeaturesComponent,
-    TestimonialsComponent
+    TestimonialsComponent,
+    ListViewV1Component,
+    ListViewV2Component,
+    GridViewV2Component,
+    GridViewV1Component,
+    SliderViewComponent,
+    SingleProjectV1Component,
+    SingleProjectV2Component,
+    CatalogListingsComponent,
+    ShopProductPageComponent,
+    ShopCheckoutComponent,
+    BlogGridViewWithSliderComponent,
+    BlogGridViewNoSliderComponent,
+    AboutAgencyComponent,
+    AboutProductComponent,
+    ServicesV1Component,
+    ServicesV2Component,
+    ServicesV3Component
   ],
   imports: [
     BrowserModule,
