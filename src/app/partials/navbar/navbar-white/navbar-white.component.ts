@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class NavbarWhiteComponent {
 
+  scrollPosition: number = 0;
+  scrolled: boolean = false;
+
+
+  ngOnInit() {
+    window.addEventListener('scroll', () => {
+      this.scrollPosition = window.pageYOffset;
+      this.scrolled = this.scrollPosition > 0;
+    });
+  }
+  
+
 }
