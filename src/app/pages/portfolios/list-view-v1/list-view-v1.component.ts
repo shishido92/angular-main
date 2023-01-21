@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as Aos from 'aos';
 
 @Component({
   selector: 'app-list-view-v1',
@@ -6,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./list-view-v1.component.scss']
 })
 export class ListViewV1Component {
+
+  ngOnInit() {
+    Aos.init();
+  }
 
 }
