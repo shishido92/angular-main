@@ -31,6 +31,7 @@ import { AboutProductComponent } from './pages/abouts/about-product/about-produc
 import { ServicesV1Component } from './pages/services/services-v1/services-v1.component';
 import { ServicesV2Component } from './pages/services/services-v2/services-v2.component';
 import { ServicesV3Component } from './pages/services/services-v3/services-v3.component';
+import { BlogListSidebarComponent } from './pages/blogs/blog-list-sidebar/blog-list-sidebar.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { ServicesV3Component } from './pages/services/services-v3/services-v3.co
     AboutProductComponent,
     ServicesV1Component,
     ServicesV2Component,
-    ServicesV3Component
+    ServicesV3Component,
+    BlogListSidebarComponent
   ],
   imports: [
     BrowserModule,
