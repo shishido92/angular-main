@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+// Firebase
+// import { AngularFireModule } from '@angular/fire';
+// import { AngularFireAuthModule } from '@angular/fire/auth';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './partials/footers/footer/footer.component';
@@ -32,6 +36,17 @@ import { ServicesV1Component } from './pages/services/services-v1/services-v1.co
 import { ServicesV2Component } from './pages/services/services-v2/services-v2.component';
 import { ServicesV3Component } from './pages/services/services-v3/services-v3.component';
 import { BlogListSidebarComponent } from './pages/blogs/blog-list-sidebar/blog-list-sidebar.component';
+import { AccountSigninComponent } from './pages/auth/account-signin/account-signin.component';
+
+const firebaseConfig = {
+  apiKey: "your-api-key",
+  authDomain: "your-auth-domain",
+  databaseURL: "your-database-url",
+  projectId: "your-project-id",
+  storageBucket: "your-storage-bucket",
+  messagingSenderId: "your-messaging-sender-id",
+  appId: "your-app-id"
+};
 
 @NgModule({
   declarations: [
@@ -64,11 +79,12 @@ import { BlogListSidebarComponent } from './pages/blogs/blog-list-sidebar/blog-l
     ServicesV1Component,
     ServicesV2Component,
     ServicesV3Component,
-    BlogListSidebarComponent
+    BlogListSidebarComponent,
+    AccountSigninComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
